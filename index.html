@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Erdős Viktória</title>
+  </head>
+  <body>
+    <main class="row container">
+        <header class="col-md-12">
+            <h1 class="text-center text-uppercase py-5">Bootstrap</h1>
+            <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://bokretakeramia.hu/sites/default/files/styles/catalog_main_terms/public/MIX_13_S_02_0.jpg?itok=HgyL_s32" alt="Los Angeles" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://kep.index.hu/1/0/4335/43351/433515/43351540_3308796_d813a9cbcc985e1d5793792db0c4a762_wm.jpg" alt="Chicago" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://viraggalegymosolyert.hu/wp-content/uploads/2019/02/boglarka1-1024x683.jpg" alt="New York" class="d-block w-100">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+        </header>
+        <nav class="col-md-12">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                <div class="container-fluid">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Kiválasztott link</a>
+                    </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#">menü 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">menü 2</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </nav>
+        <article class="col-md-9 row">
+            <section class="kepek row">
+                <div class="card col-lg-6">
+                    <div class="card-header">
+                        <h3>Virágcsokor</h3>
+                    </div>
+                    <div class="card-body"><img src="https://95e7f15da7.clvaw-cdnwnd.com/328fd766d65663696d1fb04f283dd32f/200008459-9e4149e416/image-crop-200008457.jpeg?ph=95e7f15da7" class="img-thumbnail" alt="Cinque Terre">
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary">Vigyél haza!</button>
+                    </div>
+                  </div>
+                  <div class="card col-lg-6">
+                    <div class="card-header">
+                        <h3>Pipacs</h3>
+                    </div>
+                    <div class="card-body"><img src="https://kep.index.hu/1/0/2791/27917/279173/27917341_2141327_c5fead726f3c6788fb841f24355f308e_wm.jpg" class="img-thumbnail" alt="Cinque Terre">
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary">Vigyél haza!</button>
+                    </div>
+                  </div>
+                  <div class="card col-lg-6">
+                    <div class="card-header">
+                        <h3>Tulipán</h3>
+                    </div>
+                    <div class="card-body"><img src="https://csodahelyek.hu/wp-content/uploads/2023/02/csodahelyek-tavaszi-viragterkep-pexels-alex-ohan.jpg" class="img-thumbnail" alt="Cinque Terre">
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary">Vigyél haza!</button>
+                    </div>
+                  </div>
+                  <div class="card col-lg-6">
+                    <div class="card-header">
+                        <h3>Rózsa</h3>
+                    </div>
+                    <div class="card-body"><img src="https://www.edenkert.hu/upload/2/article/6804/lead_916x515.jpg" class="img-thumbnail" alt="Cinque Terre">
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary">Vigyél haza!</button>
+                    </div>
+                  </div>
+            </section>
+            <section class="tablazat">
+                <div class="table-responsive">
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Név</th>
+                            <th>Származási ország</th>
+                            <th>Milyen időben tartsd</th>
+                            <th>Hányszor öntözd</th>
+                            <th>Színvariációk</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Rózsa</td>
+                        <td>aaa</td>
+                        <td>aaaaa</td>
+                        <td>aaaaa</td>
+                        <td>aaaaa</td>
+                      </tr>
+                      <tr>
+                        <td>dfasf</td>
+                        <td>fdsaggfd</td>
+                        <td>gfshdsfa</td>
+                        <td>hgfscv cesfadf</td>
+                        <td>gteztzjf c atre</td>
+                      </tr>
+                      <tr>
+                        <td>fgare gwhgh gfsd</td>
+                        <td>gartwz  fgad</td>
+                        <td>afdgerte  fdas</td>
+                        <td>dsfadf</td>
+                        <td> gfadrtdsgf er</td>
+                      </tr>
+                    </tbody>
+                    </table>
+                  </div>
+            </section>
+            <section class="tartalom col-lg-4 col-md-4 col-sm-6">
+                <h3>Alcím</h3>
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section>
+            <section class="tartalom col-lg-8 col-md-8 col-sm-6">
+                <h3>Alcím</h3>
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section>
+            <section class="tartalom col-lg-3 col-md-4 col-sm-6">
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section>
+            <section class="tartalom col-lg-3 col-md-4 col-sm-6">
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section>
+            <section class="tartalom col-lg-3 col-md-4 col-sm-6">
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section> 
+            <section class="tartalom col-lg-3 col-md-4 col-sm-6">
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section>
+            <section class="tartalom col-lg-3 col-md-4 col-sm-6">
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section>
+            <section class="tartalom col-lg-3 col-md-4 col-sm-6">
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section>
+            <section class="tartalom col-lg-3 col-md-4 col-sm-6">
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section> 
+            <section class="tartalom col-lg-3 col-md-4 col-sm-6">
+                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, provident cumque perspiciatis ipsam magnam dolore repellendus magni exercitationem nulla nemo veniam accusantium ab enim tenetur doloribus quam? Facere, ipsa inventore.</span><span>Possimus nihil, deserunt officiis commodi cupiditate incidunt, veritatis doloremque vel maiores amet voluptatem quidem voluptatibus, dolores mollitia architecto. Distinctio, odio quisquam. Commodi molestiae quae, ad nihil vero vel rerum sunt!</span></p>
+            </section>
+        </article>
+        <aside class="col-md-3">
+            <h2>Aside</h2>
+        </aside>
+        <footer class="col-md-12">
+            <p>@minden jog fenntartva</p>
+        </footer>
+    </main>
+  </body>
+</html>
